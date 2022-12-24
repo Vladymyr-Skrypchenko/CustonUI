@@ -1,0 +1,6 @@
+module Pods_CustomUIAnimationXib {
+  umbrella header "Pods-CustomUIAnimationXib-umbrella.h"
+
+  export *
+  module * { export * }
+}

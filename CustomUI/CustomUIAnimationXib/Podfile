@@ -1,0 +1,4 @@
+target 'CustomUIAnimationXib' do
+
+   pod 'lottie-ios'
+end

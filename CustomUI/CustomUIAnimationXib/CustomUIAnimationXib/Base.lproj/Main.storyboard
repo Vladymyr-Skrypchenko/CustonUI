@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CustomUIAnimationXib" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fzN-iF-REY" customClass="FeaturedBlock" customModule="CustomUIAnimationXib" customModuleProvider="target">
+                                <rect key="frame" x="16" y="149.66666666666666" width="170" height="129.99999999999997"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a5d-cn-Qcp" customClass="LottieAnimationView" customModule="Lottie">
+                                <rect key="frame" x="16" y="499.33333333333331" width="361" height="123.66666666666669"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animationName" value="astronaut"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Categories" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vh1-q2-chN">
+                                <rect key="frame" x="16" y="448.33333333333331" width="361" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="HZT-9T-bcb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Featured" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8HQ-5X-mwZ">
+                                <rect key="frame" x="16" y="79" width="361" height="31"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dfF-Ug-1Re" customClass="CategoriesBlock" customModule="CustomUIAnimationXib" customModuleProvider="target">
+                                <rect key="frame" x="16" y="652" width="361" height="124"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GMC-rU-kKE" customClass="LottieAnimationView" customModule="Lottie">
+                                <rect key="frame" x="207" y="149.66666666666666" width="170" height="129.99999999999997"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="170" id="AAe-pr-2et"/>
+                                    <constraint firstAttribute="height" constant="130" id="IRG-9m-aNU"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animationName" value="cosmonaut"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d00-LI-cWE" customClass="LottieAnimationView" customModule="Lottie">
+                                <rect key="frame" x="16" y="302" width="170" height="130"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="130" id="5Gd-2e-Rex"/>
+                                    <constraint firstAttribute="width" constant="170" id="SQC-cT-mGi"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animationName" value="planets"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Ae-Ho-o7Y" customClass="FeaturedBlock" customModule="CustomUIAnimationXib" customModuleProvider="target">
+                                <rect key="frame" x="207" y="302" width="170" height="130"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="170" id="6AC-KC-zKV"/>
+                                    <constraint firstAttribute="height" constant="130" id="Nec-Sw-eEs"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.20784312490000001" green="0.31372550129999999" blue="0.4196078479" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="a5d-cn-Qcp" firstAttribute="top" secondItem="vh1-q2-chN" secondAttribute="bottom" constant="19.999999999999943" id="2bd-SW-E2D"/>
+                            <constraint firstItem="fzN-iF-REY" firstAttribute="top" secondItem="8HQ-5X-mwZ" secondAttribute="bottom" constant="39.670000000000002" id="5gO-MU-WtH"/>
+                            <constraint firstItem="fzN-iF-REY" firstAttribute="leading" secondItem="d00-LI-cWE" secondAttribute="leading" id="8DI-1a-J4t"/>
+                            <constraint firstItem="4Ae-Ho-o7Y" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.171278" id="9PG-8z-aBV"/>
+                            <constraint firstItem="dfF-Ug-1Re" firstAttribute="top" secondItem="a5d-cn-Qcp" secondAttribute="bottom" constant="29" id="AXw-AS-izo"/>
+                            <constraint firstItem="d00-LI-cWE" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.171278" id="Atu-ra-9FZ"/>
+                            <constraint firstItem="GMC-rU-kKE" firstAttribute="leading" secondItem="4Ae-Ho-o7Y" secondAttribute="leading" id="Brc-CP-a5M"/>
+                            <constraint firstItem="vh1-q2-chN" firstAttribute="trailing" secondItem="a5d-cn-Qcp" secondAttribute="trailing" id="Etd-WT-k0A"/>
+                            <constraint firstItem="fzN-iF-REY" firstAttribute="leading" secondItem="8HQ-5X-mwZ" secondAttribute="leading" id="H77-Hm-o2N"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8HQ-5X-mwZ" secondAttribute="trailing" constant="16" id="HQx-Pq-azs"/>
+                            <constraint firstItem="d00-LI-cWE" firstAttribute="top" secondItem="4Ae-Ho-o7Y" secondAttribute="top" id="K6e-dC-ter"/>
+                            <constraint firstItem="4Ae-Ho-o7Y" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.43257" id="M3N-GG-CZ6"/>
+                            <constraint firstItem="vh1-q2-chN" firstAttribute="top" secondItem="d00-LI-cWE" secondAttribute="bottom" constant="16.333333333333314" id="N5C-2G-cYt"/>
+                            <constraint firstItem="8HQ-5X-mwZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="NcV-MY-54M"/>
+                            <constraint firstItem="vh1-q2-chN" firstAttribute="leading" secondItem="dfF-Ug-1Re" secondAttribute="leading" id="Ogi-1q-2vK"/>
+                            <constraint firstItem="fzN-iF-REY" firstAttribute="top" secondItem="GMC-rU-kKE" secondAttribute="top" id="PZJ-3r-Run"/>
+                            <constraint firstItem="fzN-iF-REY" firstAttribute="bottom" secondItem="GMC-rU-kKE" secondAttribute="bottom" id="RFb-Ud-Lmc"/>
+                            <constraint firstItem="vh1-q2-chN" firstAttribute="trailing" secondItem="8HQ-5X-mwZ" secondAttribute="trailing" id="Rp3-j2-Znz"/>
+                            <constraint firstAttribute="bottom" secondItem="a5d-cn-Qcp" secondAttribute="bottom" constant="229" id="TZ7-Vf-ENE"/>
+                            <constraint firstItem="d00-LI-cWE" firstAttribute="height" secondItem="4Ae-Ho-o7Y" secondAttribute="height" id="YpV-Ve-8qZ"/>
+                            <constraint firstItem="d00-LI-cWE" firstAttribute="width" secondItem="4Ae-Ho-o7Y" secondAttribute="width" id="ZsE-fO-eD4"/>
+                            <constraint firstItem="fzN-iF-REY" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.43257" id="ayw-vI-klA"/>
+                            <constraint firstItem="GMC-rU-kKE" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.171278" id="c0C-hU-ebU"/>
+                            <constraint firstItem="d00-LI-cWE" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.43257" id="imI-ZR-6V3"/>
+                            <constraint firstItem="vh1-q2-chN" firstAttribute="trailing" secondItem="dfF-Ug-1Re" secondAttribute="trailing" id="j5x-UE-FyP"/>
+                            <constraint firstItem="d00-LI-cWE" firstAttribute="leading" secondItem="vh1-q2-chN" secondAttribute="leading" id="jh7-2E-yea"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="dfF-Ug-1Re" secondAttribute="bottom" constant="42" id="kZE-bM-TF8"/>
+                            <constraint firstItem="4Ae-Ho-o7Y" firstAttribute="trailing" secondItem="vh1-q2-chN" secondAttribute="trailing" id="qr3-BO-S4x"/>
+                            <constraint firstItem="d00-LI-cWE" firstAttribute="top" secondItem="fzN-iF-REY" secondAttribute="bottom" constant="22.333333333333371" id="rvw-VF-d7z"/>
+                            <constraint firstItem="8HQ-5X-mwZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="tP2-lN-k3w"/>
+                            <constraint firstItem="GMC-rU-kKE" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.43257" id="uiI-Kf-W6S"/>
+                            <constraint firstItem="fzN-iF-REY" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.171278" id="wZN-VY-9U6"/>
+                            <constraint firstItem="vh1-q2-chN" firstAttribute="leading" secondItem="a5d-cn-Qcp" secondAttribute="leading" id="xO9-gH-rta"/>
+                            <constraint firstItem="fzN-iF-REY" firstAttribute="trailing" secondItem="d00-LI-cWE" secondAttribute="trailing" id="zas-E0-paZ"/>
+                            <constraint firstAttribute="bottom" secondItem="vh1-q2-chN" secondAttribute="bottom" constant="372.66666666666669" id="zu1-v3-1sH"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="bottomCategoriesBlock" destination="dfF-Ug-1Re" id="PRc-Yv-hSs"/>
+                        <outlet property="bottomLeftFeaturedBlock" destination="d00-LI-cWE" id="ghi-YX-R8T"/>
+                        <outlet property="bottomRightFeaturedBlock" destination="4Ae-Ho-o7Y" id="w8H-ZB-KhS"/>
+                        <outlet property="topAnimationCategories" destination="a5d-cn-Qcp" id="IOX-x3-M4V"/>
+                        <outlet property="topLeftFeaturedBlock" destination="fzN-iF-REY" id="qKO-uE-wkL"/>
+                        <outlet property="topRightFeaturedBlock" destination="GMC-rU-kKE" id="p8h-Sj-9dn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="101.5267175572519" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+</document>
