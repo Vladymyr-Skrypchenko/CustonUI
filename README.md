@@ -1,1 +1,4 @@
-# CustonUI
+# Custom UI
+- animation
+- .xib
+- delegate
